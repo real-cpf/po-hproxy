@@ -1,0 +1,22 @@
+[package]
+name = "po-hproxy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait="0.1"
+openssl-sys = "0.9.102"
+pingora-core = "0.2.0"
+pingora-proxy = "0.2.0"
+pingora-error = {version = "*"}
+log = {version = "*"}
+structopt = {version = "*"}
+
+pingora-http = {version = "*"}
+
+env_logger = {version = "*"}
+
+prometheus = {version = "*"}
+
+http = {version = "1.1.0"}
+bytes = "1.6.0"
