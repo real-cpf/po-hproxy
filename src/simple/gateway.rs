@@ -125,5 +125,4 @@ impl ProxyHttp for SimpleGateway{
         log_summary(_session,"connected_to_upstream");
         Ok(())
     }
-
 }
