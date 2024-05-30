@@ -9,6 +9,7 @@ openssl-sys = "0.9.102"
 pingora-core = "0.2.0"
 pingora-proxy = "0.2.0"
 pingora-error = {version = "*"}
+pingora-timeout = "0.2.0"
 log = {version = "*"}
 structopt = {version = "*"}
 
@@ -17,6 +18,8 @@ pingora-http = {version = "*"}
 env_logger = {version = "*"}
 
 prometheus = {version = "*"}
-
+serde_json = "1.0.117"
 http = {version = "1.1.0"}
 bytes = "1.6.0"
+moka = { version = "0.12.7", features = ["sync"] }
+serde = { version = "1.0.203", features = ["derive"] }
